@@ -1,3 +1,47 @@
+# Ignore everything by default.
+*
+
+# Keep folders visible so Git can find allowed files inside them.
+!*/
+
+# Keep Git metadata/configuration files.
+!.gitignore
+
+# Keep source code and notebooks.
+!*.py
+!*.ipynb
+!*.R
+!*.r
+!*.jl
+!*.m
+!*.c
+!*.h
+!*.cpp
+!*.hpp
+!*.cc
+!*.hh
+!*.cs
+!*.java
+!*.js
+!*.jsx
+!*.ts
+!*.tsx
+!*.sh
+!*.ps1
+!*.bat
+!*.cmd
+!*.sql
+!*.html
+!*.css
+!*.scss
+!*.json
+!*.yaml
+!*.yml
+!*.toml
+!*.ini
+!*.cfg
+
+# Still ignore generated notebook checkpoints and bytecode.
 .ipynb_checkpoints/
 __pycache__/
 *.py[cod]
